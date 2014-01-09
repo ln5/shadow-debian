@@ -1,0 +1,5 @@
+shadow (1.8.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Shadow Support <shadow-support@fake>  Wed, 08 Jan 2014 10:20:04 -0500

@@ -1,0 +1,24 @@
+Source: shadow
+Section: unknown
+Priority: extra
+Maintainer: Shadow Support <shadow-support@cs.umn.edu>
+Build-Depends: debhelper (>= 8.0.0), libglib2.0-dev, cmake, clang (>= 3.2), llvm-dev (>= 3.2), libclang-dev (>= 3.2), cmake (>= 2.8.8), make, python2.7, gcc, automake, autoconf, zlib1g-dev, libevent-dev, libtidy-dev
+Standards-Version: 3.9.3
+Homepage: https://shadow.github.io/
+#Vcs-Git: git://git.debian.org/collab-maint/shadow.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/shadow.git;a=summary
+ 
+Package: shadow
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, llvm (>= 3.2), libglib2.0-0, python (= 2.7), xz-utils, zlib1g, libevent-2.0-5 (>= 2.0.10-stable), libtidy-0.99-0
+Description: Discrete-event network simulator that runs real applications
+ Shadow runs distributed systems of thousands of nodes on a single
+ machine. It combines the accuracy of emulation with the efficiency
+ and control of simulation, achieving the best of both approaches.
+ .
+ Shadow can run real network applications like Tor.
+ 
+Package: shadow-doc
+Architecture: all
+Description: documentation for shadow
+ <insert long description, indented with spaces>
